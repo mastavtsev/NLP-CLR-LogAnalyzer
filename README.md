@@ -1,2 +1,2 @@
 # NLP-CLR-LogAnalyzer
-NLP-Based .NET CLR Event Logs Analyzer tool designed to analyze patterns and anomalies in .NET CLR application logs
+NLP-Based .NET CLR Event Logs Analyzer tool designed to analyze patterns and anomalies in .NET CLR application logs. Developed using Python, this tool supports multiple abstraction levels for pattern detection and utilizes an SQLite database for efficiency of anomaly detection algorithm. A key component of the tool is a model based on the BERT architecture, specifically SqueezeBERT, which was trained from scratch to be used in anomaly detection. This demonstration highlights the effective application of NLP techniques in case of analyzing the .NET CLR runtime environment logs.
