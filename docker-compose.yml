@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  xes-anomaly-detector:
+    build: .
+    container_name: xes_anomaly_detector
+    volumes:
+      - ./logs:/app/logs
+      - ./model:/app/model
+    stdin_open: true
+    tty: true
